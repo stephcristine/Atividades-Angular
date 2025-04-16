@@ -1,0 +1,8 @@
+<div>
+  <input [(ngModel)]="expressao" placeholder="Informe a conta que deseja fazer. Ex: 10 + 5" />
+  <button (click)="calcular()">Calcular</button>
+</div>
+
+<div *ngIf="resultado !== ''">
+  <p>Resultado: {{ resultado }}</p>
+</div>

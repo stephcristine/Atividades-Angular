@@ -1,0 +1,3 @@
+<input [(ngModel)]="palavra" placeholder="Digite uma palavra" />
+<button (click)="analisarPalavra()">Analisar</button>
+<p *ngIf="resultado">{{ resultado }}</p>
